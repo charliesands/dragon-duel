@@ -6,7 +6,7 @@ export default class Champion {
     this.race = data.race
     this.class = data.class
     this.hp = data.hp
-    this.attacks = data.attacks
+    this.attacks = Object.keys(data.attacks)
   }
 
 }
